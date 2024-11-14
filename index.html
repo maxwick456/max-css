@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>css examples</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <h1>Max's UI Library</h1>
+        <h1>Text:</h1>
+        <custom-horizontal-line color="white" thickness="3px" style="margin: 30px 0;"></custom-horizontal-line>
+        <h1>This is a header</h1>
+        <h2>This is a secondary header</h2>
+        <h3>This is a thirdary header</h3>
+        <p>This is a paragraph, if you use anything other than h3 you are weird</p>
+        <br>
+        <h1>Cards</h1>
+        <custom-horizontal-line color="white" thickness="3px" style="margin: 30px 0;"></custom-horizontal-line>
+        <custom-card 
+            title="Card Title" 
+            image="https://via.placeholder.com/300" 
+            content="This is a simple card component created using a custom HTML element."
+        ></custom-card>
+        <small-card 
+            title="Small Card Title" 
+            content="This is a small card component with an image." 
+            image="https://via.placeholder.com/150"
+        ></small-card>
+        <h1>Inputs</h1>
+        <custom-horizontal-line color="white" thickness="3px" style="margin: 30px 0;"></custom-horizontal-line>
+        <custom-form></custom-form>
+        <br>
+        <button>This is a button</button>
+        <br>
+        <input type="text" placeholder="This is a input[type='text']">
+        <h1>Others:</h1>
+        <p>Horizontal line:</p>
+        <custom-horizontal-line color="white" thickness="3px" style="margin: 30px 0;"></custom-horizontal-line>
+        <br>
+        <button id="openModal">Open Modal</button>
+
+        <p>marquee:</p>
+
+        <marquee>This is the most useful component, a marquee</marquee>
+
+        <custom-modal>
+            <h2>This is a Modal!</h2>
+            <p>This is the modal content!</p>
+        </custom-modal>
+    </body>
+</html>
